@@ -14,10 +14,10 @@ import com.dio.marketplace.registration.infrastructure.persistence.entity.projec
 
 @RepositoryRestResource(excerptProjection = CustomerExcerpt.class)
 public interface CustomerEntityRepository extends PagingAndSortingRepository<Customer, UUID>, CrudRepository<Customer, UUID> {
-	
-	List<Customer> findByFirstNameStartingWithIgnoreCase(@Param("firstName") String firstName);
-	
-	@Override
-	@RestResource(exported = false)
-	void deleteById(UUID id);
+    List<Customer> findByFirstNameStartingWithIgnoreCase(@Param("firstName") String firstName);
+
+    @Override
+    @RestResource(exported = false)
+    void deleteById(UUID id);
+
 }

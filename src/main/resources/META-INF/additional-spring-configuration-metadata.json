@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "registration.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'registration.datasource.url'"
+  },
+  {
+    "name": "catalog.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'catalog.datasource.url'"
+  },
+  {
+    "name": "registration.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'registration.datasource.username'"
+  },
+  {
+    "name": "registration.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'registration.datasource.password'"
+  },
+  {
+    "name": "registration.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'registration.datasource.driver-class-name'"
+  },
+  {
+    "name": "registration.jpa.properties.hibernate.hbm2ddl.auto",
+    "type": "java.lang.String",
+    "description": "A description for 'registration.jpa.properties.hibernate.hbm2ddl.auto'"
+  },
+  {
+    "name": "catalog.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'catalog.datasource.username'"
+  },
+  {
+    "name": "catalog.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'catalog.datasource.password'"
+  },
+  {
+    "name": "catalog.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'catalog.datasource.driver-class-name'"
+  },
+  {
+    "name": "catalog.jpa.properties.hibernate.hbm2ddl.auto",
+    "type": "java.lang.String",
+    "description": "A description for 'catalog.jpa.properties.hibernate.hbm2ddl.auto'"
+  }
+]}
